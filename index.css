@@ -1,0 +1,45 @@
+
+ul{
+  width: 100%;
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+  background-color:#F7F9F9;
+  text-align: center;
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
+  top:0; /*necessary for sticky*/
+
+
+
+
+}
+li{
+  float: left;
+  list-style-type: none;
+  display: inline;
+
+}
+
+a, .dropdown{
+  display: block;
+  color: #DC7633;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-family:cursive;
+}
+
+.active, li a:hover {
+  background-color:#D1F2EB;
+}
+
+@media screen and (max-width:600px) {
+  li{
+    float: none;
+  }
+}
+
+
+.lastli{
+
+}
