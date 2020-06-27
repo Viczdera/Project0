@@ -1,26 +1,60 @@
-.menu{
+
+ul{
   width: 100%;
-  background-color:grey;
-  height: 20px;
-  margin: 0;
-  padding: 0;
+  background-color:#E8F6F3;
   position: sticky;
+  position: -webkit-sticky; /* Safari */
   top: 0;
   overflow: hidden;
+  text-align: center; /* Important for centering */
+  display:table;
+  margin: 0; /* Important for centering */
+  padding: 0;
+  display:inline-block; /* may change back to table */
+}
+
+li{
+  list-style: none;
+  display:inline-block; /* Important for centering */
+  height: 25px;
+  padding-top: 5px;
+
+
 
 }
-li{
-  float: left;
-  text-align: center;
-  shape-margin: 20px;
-  
+
+@font-face {
+  font-family: 'veiz1';
+  src: url(sansation_light.woff);
 }
 
 a{
-  text-align: center;
   text-decoration: none;
   font-weight: bold;
-  font-family: cursive;
-  color: white;
+  font-family:cursive;
+  color: black;
+  padding:16px;
+
+}
+
+
+
+
+a:hover{
+  background-color: white;
+  padding-bottom: 1px;
+}
+
+
+div.career{
+  background-color: grey;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+body{
+  font-family:cursive;
+  text-align:center;
 
 }
