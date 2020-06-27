@@ -1,6 +1,26 @@
-.MENU{
+.menu{
   width: 100%;
-  color: grey;
+  background-color:grey;
   height: 20px;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  top: 0;
+  overflow: hidden;
+
+}
+li{
+  float: left;
+  text-align: center;
+  shape-margin: 20px;
   
+}
+
+a{
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: cursive;
+  color: white;
+
 }
