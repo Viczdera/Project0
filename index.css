@@ -1,50 +1,72 @@
+header{
+  font-size: 25px;
+  margin-bottom: 20px;
 
-
-/*not in use*/
+}
 ul{
   width: 100%;
-  margin: 0;
-  padding:0;
-  overflow: hidden;
-  background-color:#F7F9F9;
-  text-align: center;
+  background-color:#82E0AA;
   position: sticky;
   position: -webkit-sticky; /* Safari */
-  top:0; /*necessary for sticky*/
-
-
-
-
-}
-li{
-  float: left;
-  list-style-type: none;
-  display: inline;
-
-}
-
-#menu{
-  position: sticky;
   top: 0;
+  overflow: hidden;
+  text-align: center; /* Important for centering */
+  display:table;
+  margin: 0; /* Important for centering */
+  padding: 0;
+  display:inline-block; /* may change back to table */
 }
 
-a, .dropdown{
-  color: #DC7633;
-  padding: 20px 16px;
+li{
+  list-style: none;
+  display:inline-block; /* Important for centering */
+  height: 25px;
+  padding-top: 5px;
+
+
+
+}
+
+@font-face {
+  font-family: 'veiz1';
+  src: url(sansation_light.woff);
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
   font-family:cursive;
-}
+  color: white;
+  padding:16px;
 
-.active, li a:hover {
-  background-color:#D1F2EB;
-}
-
-@media screen and (max-width:600px) {
-  li{
-    float: none;
-  }
 }
 
 
-.lastli{
+
+
+a:hover{
+  background-color: black;
+  padding-bottom: 1px;
+}
+
+
+div.career{
+  background-color: white;
+  width: 60%;
+  height: auto;
+  overflow: hidden;
+  margin-left: auto;/*for centering*/
+  margin-right: auto;
+  border-radius: 2px;
+  border-color: black
+}
+.me{
+  float: left;
+
+}
+
+body{
+  font-family:cursive;
+  text-align:center;
 
 }
