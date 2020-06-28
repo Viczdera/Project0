@@ -1,7 +1,11 @@
+header{
+  font-size: 25px;
+  margin-bottom: 20px;
 
+}
 ul{
   width: 100%;
-  background-color:#E8F6F3;
+  background-color:#82E0AA;
   position: sticky;
   position: -webkit-sticky; /* Safari */
   top: 0;
@@ -32,7 +36,7 @@ a{
   text-decoration: none;
   font-weight: bold;
   font-family:cursive;
-  color: black;
+  color: white;
   padding:16px;
 
 }
@@ -41,17 +45,20 @@ a{
 
 
 a:hover{
-  background-color: white;
+  background-color: black;
   padding-bottom: 1px;
 }
 
 
 div.career{
-  background-color: grey;
+  background-color: white;
   width: 60%;
   height: auto;
   overflow: hidden;
-
+  margin-left: auto;/*for centering*/
+  margin-right: auto;
+  border-radius: 2px;
+  border-color: black
 }
 .me{
   float: left;
