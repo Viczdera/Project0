@@ -27,10 +27,6 @@ li{
 
 }
 
-@font-face {
-  font-family: 'veiz1';
-  src: url(sansation_light.woff);
-}
 
 a{
   text-decoration: none;
