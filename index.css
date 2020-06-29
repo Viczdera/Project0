@@ -49,7 +49,7 @@ a:hover{
   color: black;
 }
 
-div.career,div.interests, div.hobbies{
+div.career,div.interests, div.hobbies, #contact-buttom{
   background-color: white;
   width: 60%;
   height: auto;
@@ -73,5 +73,13 @@ div.career,div.interests, div.hobbies{
 body{
   font-family:cursive;
   text-align:center;
+
+}
+
+#contact-buttom{
+  background-color:
+}
+
+.insta{
 
 }
