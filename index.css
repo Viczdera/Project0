@@ -5,7 +5,7 @@ header{
 }
 ul{
   width: 100%;
-  background-color:#82E0AA;
+  background-color:#EEF3F6;
   position: sticky;
   position: -webkit-sticky; /* Safari */
   top: 0;
@@ -27,17 +27,13 @@ li{
 
 }
 
-@font-face {
-  font-family: 'veiz1';
-  src: url(sansation_light.woff);
-}
 
 a{
   text-decoration: none;
-  font-weight: bold;
+  font-weight:lighter;
   font-family:cursive;
-  color: white;
-  padding:16px;
+  color: #148F77 ;
+  padding:14px;
 
 }
 
@@ -45,12 +41,15 @@ a{
 
 
 a:hover{
-  background-color: black;
+  color: black;
   padding-bottom: 1px;
 }
 
+.home{
+  color: black;
+}
 
-div.career{
+div.career,div.interests, div.hobbies{
   background-color: white;
   width: 60%;
   height: auto;
@@ -60,8 +59,14 @@ div.career{
   border-radius: 2px;
   border-color: black
 }
-.me{
+
+.me-left{
   float: left;
+
+}
+
+.me-right{
+  float: right;
 
 }
 
