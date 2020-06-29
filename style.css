@@ -2,6 +2,14 @@ a.active{
   color: black;
 }
 
+
 a.int{
   padding: 0px;
+}
+
+@media screen and (max-width:600px) {
+  #contact{
+    display: none;
+  }
+
 }
