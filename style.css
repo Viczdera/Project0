@@ -20,3 +20,10 @@ a.int{
   }
 
 }
+
+@media screen and (max-width:250px) {
+  .line{
+    display: none;
+  }
+
+}
