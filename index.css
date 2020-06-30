@@ -45,6 +45,11 @@ a:hover{
   padding-bottom: 1px;
 }
 
+.so{
+    padding-top: 20px;
+
+}
+
 .home{
   color: black;
 }
@@ -56,12 +61,18 @@ div.career,div.interests, div.hobbies, #contact-buttom{
   overflow: hidden;
   margin-left: auto;/*for centering*/
   margin-right: auto;
+  padding-top: 50px;
   border-radius: 2px;
   border-color: black
 }
 
-.me-left{
-  float: left;
+.line{
+  width: 60%;
+  height: 5px;
+
+
+}
+
 
 }
 
@@ -71,7 +82,7 @@ div.career,div.interests, div.hobbies, #contact-buttom{
 }
 
 body{
-  font-family:cursive;
+  font-family:arial;
   text-align:center;
 
 }
@@ -82,4 +93,9 @@ body{
 
 .insta{
 
+}
+
+h1{
+  padding-top: 0px;
+  font-size: 20px;
 }

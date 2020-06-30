@@ -13,3 +13,10 @@ a.int{
   }
 
 }
+
+@media screen and (min-width:600px) {
+  #contact-buttom{
+    display: none;
+  }
+
+}
