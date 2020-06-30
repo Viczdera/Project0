@@ -15,7 +15,7 @@ a.int{
 }
 
 @media screen and (min-width:600px) {
-  #contact-buttom{
+  #contact-buttom,#contact-pages{
     display: none;
   }
 
