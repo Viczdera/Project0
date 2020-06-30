@@ -88,10 +88,11 @@ body{
 }
 
 #contact-buttom{
-  background-color:
+  background-color: #EEF3F6;
 }
 #contact-buttom-large{
-  background-color: grey;
+  background-color: #EEF3F6;
+  width: 100%;
 }
 
 .insta{
