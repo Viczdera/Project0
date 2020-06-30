@@ -20,6 +20,11 @@ a.int{
   }
 
 }
+@media screen and (max-width:600px) {
+  #contact-buttom-large{
+    display: none;
+  }
+}
 
 @media screen and (max-width:250px) {
   .line{
