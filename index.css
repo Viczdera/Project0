@@ -1,6 +1,7 @@
 header{
   font-size: 25px;
   margin-bottom: 20px;
+  font-family: cursive;
 
 }
 ul{
@@ -81,11 +82,6 @@ div.career,div.interests, div.hobbies, #contact-buttom{
 
 }
 
-body{
-  font-family:arial;
-  text-align:center;
-
-}
 
 #contact-buttom{
   background-color: #EEF3F6;
@@ -95,11 +91,9 @@ body{
   width: 100%;
 }
 
-.insta{
+.p-bottom{
+  font-size: 15px;
+  color:  #148F77;
+  text-align: center;
 
-}
-
-h1{
-  padding-top: 0px;
-  font-size: 20px;
 }
