@@ -31,8 +31,7 @@ li{
 
 a{
   text-decoration: none;
-  font-weight:lighter;
-  font-family:cursive;
+  font-weight:600;
   color: #148F77 ;
   padding:14px;
 
@@ -81,7 +80,9 @@ div.career,div.interests, div.hobbies, #contact-buttom{
   float: right;
 
 }
-
+ h4{
+   color: #457564;
+ }
 
 #contact-buttom{
   background-color: #EEF3F6;
@@ -92,6 +93,7 @@ div.career,div.interests, div.hobbies, #contact-buttom{
 }
 
 .p-bottom{
+  margin-top: 0px;
   font-size: 15px;
   color:  #148F77;
   text-align: center;
