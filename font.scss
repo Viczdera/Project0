@@ -12,7 +12,14 @@ $font-family-sans-serif:
   // Emoji fonts
   "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
+
+ $mygreen: #457564;
+
   body{
     font-family:$font-family-sans-serif;
       text-align:center;
+  }
+
+  .p-bottom, h4, a {
+    color: $mygreen;
   }

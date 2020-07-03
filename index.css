@@ -32,7 +32,6 @@ li{
 a{
   text-decoration: none;
   font-weight:400;
-  color: #457564 ;
   padding:14px;
 
 }
@@ -80,12 +79,10 @@ div.career,div.interests, div.hobbies, #contact-buttom{
   float: right;
 
 }
- h4{
-   color: #457564;
- }
 
 #contact-buttom{
   background-color: #EEF3F6;
+  margin-bottom: 10px;
 }
 #contact-buttom-large{
   background-color: #EEF3F6;
@@ -95,7 +92,6 @@ div.career,div.interests, div.hobbies, #contact-buttom{
 .p-bottom{
   margin-top: 0px;
   font-size: 15px;
-  color:  #148F77;
   text-align: center;
 
 }
